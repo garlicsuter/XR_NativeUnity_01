@@ -1270,18 +1270,7 @@ MonoBehaviour:
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1106994807}
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Hello
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_OnHoverExit:
     m_PersistentCalls:
       m_Calls: []
@@ -1461,12 +1450,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 308bfae4e53c36b4db64c7c87fed3add,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.059
+      value: -0.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308bfae4e53c36b4db64c7c87fed3add,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.1858
+      value: 1.018
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 308bfae4e53c36b4db64c7c87fed3add,
         type: 3}
@@ -1716,7 +1705,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 02fd5bcfa1558894280eabdb3fda92aa,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.208
+      value: 0.31
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02fd5bcfa1558894280eabdb3fda92aa,
         type: 3}
@@ -1726,7 +1715,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 02fd5bcfa1558894280eabdb3fda92aa,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.416
+      value: 0.143
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 02fd5bcfa1558894280eabdb3fda92aa,
         type: 3}
@@ -1794,6 +1783,11 @@ PrefabInstance:
       value: fox
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 02fd5bcfa1558894280eabdb3fda92aa,
+        type: 3}
+      propertyPath: m_TagString
+      value: fox
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 02fd5bcfa1558894280eabdb3fda92aa,
         type: 3}
       propertyPath: m_TagString
       value: fox
